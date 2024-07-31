@@ -1,0 +1,24 @@
+{
+    "name":"PRACTICE_EXAM_API",
+    "app":{
+        "cfengine":"lucee@6",
+        "restMappings":"/rest/*"
+    },
+    "force":true,
+    "openbrowser":true,
+    "debug":true,
+    "web":{
+        "directoryBrowsing":true,
+        "webAdminEnabled":true,
+        "webAdminPassword":"${adminPassword}",
+        "allowCFAdmin":true,
+        "host":"${HOST}",
+        "http":{
+            "port":"${PORT}"
+        },
+        "SSL":{
+            "enable":"${SSL}",
+            "port":"${SSLPORT}"
+        }
+    }
+}
